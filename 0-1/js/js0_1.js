@@ -9,10 +9,10 @@ window.onload = function(){
 	aLi1.onmouseout = outFunc ;
 	for (var i = 0; i < aLi.length; i++) {
 		if (i!=0) {
-			aLi[i].onclick = addColor() ;
+			aLi[i].onclick = window.addColor ;
 		}
-
-	}
+	};
+}
 	function over(){
 		if (oUl1.style.display == 'block') {
 			oUl1.style.display = 'none'; 
@@ -35,6 +35,9 @@ window.onload = function(){
 	};
 
 	function addColor(){
-		return function(){aLi[i].addClass('class-'+i);}
+		aLi[i].className = 'class-'+i+' aLi'; 
 	}
-}
+
+
+//	The code is not finished yet.
+//	I have to go on.
