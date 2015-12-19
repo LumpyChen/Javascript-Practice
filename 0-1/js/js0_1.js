@@ -1,43 +1,59 @@
 window.onload = function(){
-
 	var oDiv1 = document.getElementById('oDiv1');
+	var oDiv2 = document.getElementById('oDiv2');
 	var oUl1 = document.getElementById('oUl1');
-	var aLi1 = document.getElementById('aLi1');
-	var aLi = oUl1.getElementsByClassName('aLi');
-	oDiv1.onclick = over ;
-	aLi1.onmouseover = inFunc ;
-	aLi1.onmouseout = outFunc ;
-	for (var i = 0; i < aLi.length; i++) {
-		if (i!=0) {
-			aLi[i].onclick = window.addColor ;
+	var oUl2 = document.getElementById('oUl2');
+	var oUl3 = document.getElementById('oUl3');
+	var aLi1 = oUl3.getElementsByTagName('li');
+	//get elements
+
+	oDiv1.onclick = shrink;
+	oDiv2.onmouseover = viewFunc;
+	oDiv2.onmouseout = hideFunc;
+
+	aLi1[0].onclick = changeBlue;
+	aLi1[1].onclick = changeRed;
+	aLi1[2].onclick = changeGreen;
+	aLi1[3].onclick = changeNavy;
+
+
+	function shrink(){
+		if(oUl1.style.visibility=='visible'){
+			oUl1.style.visibility = 'hidden';
+			oDiv1.className = 'down';
+		}
+		else {
+			oUl1.style.visibility = 'visible';
+			oDiv1.className = 'up';
 		}
 	};
-}
-	function over(){
-		if (oUl1.style.display == 'block') {
-			oUl1.style.display = 'none'; 
-		}
-		else{
-			oUl1.style.display = 'block';
-		}
+
+	function viewFunc(){
+		oUl2.style.visibility='visible';
 	};
 
-	function inFunc(){
-		for (var i = 0; i < aLi.length; i++) {
-			aLi[i].style.display = 'block';
-		}
+	function hideFunc(){
+		oUl2.style.visibility='hidden';
 	};
 
-	function outFunc(){
-		for (var i = 0; i < aLi.length; i++) {
+	function changeBlue(){
+		for(var x = 0 ; x < aLi1.length; x++){
+			aLi1[x].className='color1 aLi';
 		}
-		aLi1.style.display = 'block';
 	};
-
-	function addColor(){
-		aLi[i].className = 'class-'+i+' aLi'; 
-	}
-
-
-//	The code is not finished yet.
-//	I have to go on.
+	function changeRed(){
+		for(var x = 0 ; x < aLi1.length; x++){
+			aLi1[x].className='color2 aLi';
+		}
+	};
+	function changeGreen(){
+		for(var x = 0 ; x < aLi1.length; x++){
+			aLi1[x].className='color3 aLi';
+		}
+	};
+	function changeNavy(){
+		for(var x = 0 ; x < aLi1.length; x++){
+			aLi1[x].className='color4 aLi';
+		}
+	};
+};

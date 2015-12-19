@@ -4,50 +4,77 @@
 	<meta charset="UTF-8">
 	<title>播放列表</title>
 	<style>
-	#oDiv1{
-		width: 300px;
-		border:1px dashed #000;
-	}
-	.aLi{
-		border:1px dashed #000;
-		list-style: none;
-		color: #fff;
-		background-color: #222;
-	}
+        .aLi{
+            width: 400px;
+            text-align: center;
+            margin: 0 auto;
+            border: 1px dashed #000;
+            background-color: #111;
+            color: #fff;
+        }
 
-	li.class-1{
-		background-color: blue;
-	}
-	li.class-2{
-		background-color: red;
-	}
-	li.class-3{
-		background-color: green;
-	}
-	li.class-4{
-		background-color: navy;
-	}
-	#oUl1{
-		padding: 0px;
-		width: 300px;
-	}
-	.aLi{
-		display: none;
-	}
-	#aLi1{
-		display: block;
-	}
+        #oH3{
+            text-align: center;
+        }
+        #oUl3 li:first-child{
+             margin: 40px auto 0px auto;
+         }
+        #oUl2{
+            visibility: hidden;
+        }
+        #oDiv1,#oDiv2{
+            width: 400px;
+            border: 1px dashed #000;
+            text-align: center;
+            margin: 40px auto 0px auto;
+        }
+        .down{
+            background: url("img/down.gif") 370px center no-repeat;
+        }
+        .up{
+            background: url("img/up.gif") 370px center no-repeat;
+        }
+        #oUl3 .color1{
+            background-color: blue;
+        }
+        #oUl3 .color2{
+            background-color: red;
+        }
+        #oUl3 .color3{
+            background-color: green;
+        }
+        #oUl3 .color4{
+            background-color: navy;
+        }
 	</style>
-
 </head>
 <body>
-	<div id="oDiv1">播放列表</div>
-	<ul id="oUl1">
-		<li class="aLi" id="aLi1" >歌曲1</li>
-		<li class="aLi">歌曲2</li>
-		<li class="aLi">歌曲3</li>
-		<li class="aLi">歌曲4</li>
-		<li class="aLi" >歌曲5</li>
+	<h3 id="oH3">作品1——单击收缩列表，鼠标移入隐藏，换肤</h3>
+    <div id="oDiv1" class="up">
+        点我收缩
+    </div>
+    <ul id="oUl1">
+        <li class="aLi">被收缩</li>
+        <li class="aLi">被收缩</li>
+        <li class="aLi">被收缩</li>
+        <li class="aLi">被收缩</li>
+        <li class="aLi">被收缩</li>
+    </ul>
+    <div id="oDiv2">
+        鼠标移上才出现
+    </div>
+    <ul id="oUl2">
+        <li class="aLi">被隐藏</li>
+        <li class="aLi">被隐藏</li>
+        <li class="aLi">被隐藏</li>
+        <li class="aLi">被隐藏</li>
+        <li class="aLi">被隐藏</li>
+    </ul>
+	<ul id="oUl3">
+		<li class="aLi">点我变成蓝色</li>
+		<li class="aLi">点我变成红色</li>
+		<li class="aLi">点我变成绿色</li>
+		<li class="aLi">点我变成青色</li>
 	</ul>
 	<script src="js/js0_1.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
