@@ -4,117 +4,163 @@
     <meta charset="UTF-8">
     <title>打分</title>
 </head>
-<style>
-    .nav-bar{
-        float: left;
-    }
-    .nav-second-bar{
+    <style>
+        ul,li,ol{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .nav-bar{
+            float: left;
+            width: 21%;
+            text-align: center;
+            background-color: #0B346E;
+            color: white;
+            margin: 0 2%;
+            height: 30px;
+            line-height:30px;
+        }
+        .nav-sec-bar{
+            height: 30px;
+            line-height:30px;
+            background-color: #0B346E;
+            margin-top: 5px;
+            width: 100%;
+            padding: 0px;
+        }
 
-    }
-</style>
+        .clearfix:after {
+            content:"200B";
+            display:block;
+            height:0;
+            clear:both;
+            visibility: hidden;
+        }
+        .nav-sec{
+            display: none;
+        }
+        .nav-third{
+            display: none;
+        }
+        .nav-third-bar{
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            background-color: cornflowerblue;
+            position: relative;
+            left: 100%;
+            bottom: 30px;
+            margin-bottom: 5px;
+        }
+        ul>.nav-bar:nth-child(4) .nav-third-bar{
+            left: auto;
+            right: 100%;
+        }
+    </style>
 <body>
-<ul class="nav">
-    <li class="nav-bar">click me
-        <ul class="nav-sec">
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-bar">click me
-        <ul class="nav-sec">
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-bar">click me
-        <ul class="nav-sec">
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-bar">click me
-        <ul class="nav-sec">
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-            <li class="nav-sec-bar">put your mouse on me
-                <ul class="nav-third">
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                    <li class="nav-third-bar">now you see me.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
-
+    <ul class="nav">
+        <li class="nav-bar">click me
+            <ul class="nav-sec">
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-bar">click me
+            <ul class="nav-sec">
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-bar">click me
+            <ul class="nav-sec">
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-bar">click me
+            <ul class="nav-sec">
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+                <li class="nav-sec-bar">put your mouse on me
+                    <ul class="nav-third">
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                        <li class="nav-third-bar">now you see me.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="clearfix"></li>
+    </ul>
+    <script src="js/js0_2.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
