@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+        ul,li{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        #pfl{
+            width: 70%;
+            margin-right: 15%;
+            margin-left: 15%;
+            text-align: center;
+        }
+        .clearfix:after {
+            content:"200B";
+            display:block;
+            height:0;
+            clear:both;
+            visibility: hidden;
+        }
+        #playlist{
+            width: 70%;
+            float: left;
+            background-color: #0B346E;
+            height: 180px;
+            margin:0 auto;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        #playlist ul{
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        #left,#right{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            margin-top: 65px;
+            text-align: center;
+        }
+        .bt-wrap{
+            width: 15%;
+            float: left;
+        }
+        .play{
+            border-top: 10px solid #0B346E;
+            border-left: 10px solid #0B346E;
+            border-bottom:10px solid #0B346E;
+            float: left;
+            background-color: cornflowerblue;
+            height: 160px;
+            line-height: 160px;
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="pfl">
+        <div class="bt-wrap">
+            <button id="left">Left</button>
+        </div>
+
+        <div id="playlist">
+            <ul id="view-list">
+                <li class="play">|First|</li>
+                <li class="play">|Second|</li>
+                <li class="play">|Third|</li>
+                <li class="play">|Fourth|</li>
+                <li class="play">|Fifth|</li>
+            </ul>
+        </div>
+
+        <div class="bt-wrap">
+            <button id="right">Right</button>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <script src='js/js0_4.js' ></script>
+
+</body>
+</html>
