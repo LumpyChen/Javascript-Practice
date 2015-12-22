@@ -8,33 +8,40 @@ window.onload = function(){
     var oLeft = document.getElementById('left');
     var oRight = document.getElementById('right');
 
+    var oNoty = document.getElementById('notice');
+    var oTheN = document.getElementById('the-notice');
+    var warn = null;
+
     oUlview.innerHTML+=oUlview.innerHTML;
+
+
 
 
 
     var aLipl = oUlview.getElementsByClassName('play');
 
     for( var i =0 ; i < aLipl.length ; i++) {
+
         aLipl[i].style.width=oDivplist.offsetWidth/4 - 12.5+'px';
+
         aLipl[i].onmouseover = function() {
             this.style.borderLeft = "10px solid #000";
             this.style.borderTop = "10px solid #000";
             this.style.borderBottom = "10px solid #000";
-            this.nextSibling.nextSibling.style.borderLeft ="10px solid #000";
+            this.nextSibling.nextSibling.style.borderLeft ="none";
+            this.style.borderRight = "10px solid #000";
 
         };
         aLipl[i].onmouseout = function(){
             this.style.borderLeft = "10px solid #0B346E";
             this.style.borderTop = "10px solid #0B346E";
             this.style.borderBottom = "10px solid #0B346E";
+            this.style.borderRight = "none";
             this.nextSibling.nextSibling.style.borderLeft ="10px solid #0B346E";
 
 
         };
     }
-
-
-
 
     oUlview.style.width = (aLipl[0].offsetWidth+1)*10+'px';
 
@@ -42,7 +49,7 @@ window.onload = function(){
 
     oDivplist.onmouseover = function(){
         clearInterval(Lm);
-        Lm=null;
+        Lm = null;
     };
 
     oDivplist.onmouseout = function(){
@@ -51,8 +58,8 @@ window.onload = function(){
         if(Lm){
             clearInterval(Lm);
         }
-
         Lm = setInterval(playMove,20);
+
     }
 
     var speed = -1;
@@ -80,6 +87,29 @@ window.onload = function(){
 
         oUlview.style.left = oUlview.offsetLeft + speed + 'px';
 
+    }
+
+
+    oNoty.onmouseover = oTheN.onmouseover = function(){
+        clearTimeout(warn);
+        warn = setTimeout(warnNotice,1000);
+    }
+    oNoty.onmouseout = oTheN.onmouseout= function(){
+        warn = setTimeout(hideNotice,1000);
+    }
+    //mouseover timeout 1s -
+    //
+    //mouseover begin
+    //mouseout timeout 1s
+    //mouseout begin
+
+
+
+    function warnNotice(){
+        oTheN.style.display='block';
+    }
+    function hideNotice(){
+        oTheN.style.display='none';
     }
 
 }

@@ -49,7 +49,7 @@
             float: left;
         }
         .play{
-            border-top: 10px solid #0B346E;
+            border-top: 10px solid #0B346E;;
             border-left: 10px solid #0B346E;
             border-bottom:10px solid #0B346E;
             float: left;
@@ -57,6 +57,25 @@
             height: 160px;
             line-height: 160px;
             list-style: none;
+        }
+        #notice-wrap{
+            text-align: center;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+        #notice{
+            background-color:#0B346E;
+            width: 30%;
+            color: #fff;
+            margin: 30px auto 0px auto;
+        }
+        #the-notice{
+            background-color: #ff0000;
+            color: #fff;
+            font-weight: bolder;
+            width: 30%;
+            margin:0 auto;
+            display: none;
         }
 
     </style>
@@ -81,6 +100,15 @@
             <button id="right">Right</button>
         </div>
         <div class="clearfix"></div>
+    </div>
+
+    <div id="notice-wrap">
+        <div id="notice">
+            Move your mouse here for the notice!
+        </div>
+        <div id="the-notice">
+            NOTICE!
+        </div>
     </div>
 
     <script src='js/js0_4.js' ></script>
