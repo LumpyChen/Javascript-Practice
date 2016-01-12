@@ -94,7 +94,7 @@ window.onload = function(){
         clearTimeout(warn);
         warn = setTimeout(warnNotice,1000);
     }
-    oNoty.onmouseout = oTheN.onmouseout= function(){
+    oNoty.onmouseout = oTheN.onmouseout = function(){
         warn = setTimeout(hideNotice,1000);
     }
     //mouseover timeout 1s -
