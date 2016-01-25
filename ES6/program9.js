@@ -1,7 +1,18 @@
+ console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`);
 
-	 function html(arr,username,comment) {
-         return `<b>${username.replace("&","&amp;").replace('<', '$lt;').replace('>', '&gt;').replace('"','&quot;').replace("'",'&apos;')} says</b>: "${comment.replace("&","&amp;").replace('<', '$lt;').replace('>', '&gt;').replace('"','&quot;').replace("'",'&apos;')}"`;
+    function html(pieces, ...substitutions) {
+        var result = pieces[0];
+        for (var i = 0; i < substitutions.length; ++i) {
+            result += escape(substitutions[i]) + pieces[i + 1];
+        }
 
+        return result;
     }
 
-    	console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`);
+    function escape(s) {
+        return s.replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/'/g, "&apos;")
+                .replace(/"/g, "&quot;");
+    }
