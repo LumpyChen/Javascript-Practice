@@ -1,3 +1,1 @@
-module.exports =  function makeImportant(sent, lengthe = sent.length){
-	return 
-}
+module.exports =  (sent, lengthe = sent.length) => `${sent}${'!'.repeat(lengthe)}`;
