@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a695f9-eb47-4a2a-912f-c3ffa9fd4677" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functional JS/FJS13.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Javascript练习题.iws" />
@@ -350,7 +349,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454475869174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="repeat">
+      <created>1454501965397</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1454501965397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +395,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="little" />
-    <option name="LAST_COMMIT_MESSAGE" value="little" />
+    <MESSAGE value="repeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="repeat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
