@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a695f9-eb47-4a2a-912f-c3ffa9fd4677" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functional JS/FJS9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functional JS/FJS12.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Javascript练习题.iws" />
@@ -24,42 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="js0_4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0-4/js/js0_4.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FJS1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functional JS/FJS1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc;n#UpperCase#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FJS2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functional JS/FJS2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc;n#Repeat#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FJS3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functional JS/FJS3.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,13 +84,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FJS9.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FJS9.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functional JS/FJS9.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27194244">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state vertical-scroll-proportion="-21.413794">
+              <caret line="25" column="25" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FJS10.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functional JS/FJS10.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7931035">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FJS11.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functional JS/FJS11.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.448276">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FJS12.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functional JS/FJS12.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.116546765">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc;n#Spy#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -179,6 +179,9 @@
         <option value="$PROJECT_DIR$/Functional JS/FJS7.js" />
         <option value="$PROJECT_DIR$/Functional JS/FJS8.js" />
         <option value="$PROJECT_DIR$/Functional JS/FJS9.js" />
+        <option value="$PROJECT_DIR$/Functional JS/FJS10.js" />
+        <option value="$PROJECT_DIR$/Functional JS/FJS11.js" />
+        <option value="$PROJECT_DIR$/Functional JS/FJS12.js" />
       </list>
     </option>
   </component>
@@ -383,32 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0-1/js0_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0-3/js0_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0-3/js/js0_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0-4/js0_4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -814,10 +791,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functional JS/FJS9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27194244">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state vertical-scroll-proportion="-21.413794">
+          <caret line="25" column="25" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functional JS/FJS10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7931035">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functional JS/FJS11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.448276">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functional JS/FJS12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.116546765">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc;n#Spy#0" expanded="false" />
           </folding>
         </state>
       </provider>
