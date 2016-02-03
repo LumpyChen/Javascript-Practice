@@ -6,9 +6,9 @@ var slice = Array.prototype.slice;
 function logger(namespace) {
     // SOLUTION GOES HERE
     return function (){
-        console.log(namespace,slice.apply(arguments).reduce(function (a,b) {
+        console.log.apply(console,(namespace,slice.apply(arguments).reduce(function (a,b) {
             return a+' '+b;
-        }));
+        })));
     }
 }
 
