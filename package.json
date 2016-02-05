@@ -1,0 +1,22 @@
+{
+  "name": "javascriptpractic",
+  "version": "1.0.0",
+  "description": "Practice Javascript so I can master it",
+  "main": "index.js",
+  "scripts": {
+    "test": "js-prac"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LumpyChen/Javascript-Practice.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Lumpy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LumpyChen/Javascript-Practice/issues"
+  },
+  "homepage": "https://github.com/LumpyChen/Javascript-Practice#readme"
+}
