@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a695f9-eb47-4a2a-912f-c3ffa9fd4677" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/Process.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/file.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/file.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/HTTP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/filesystem2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-test/filesystemcore.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-test/file.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node-test/filesystem.js" afterPath="$PROJECT_DIR$/node-test/filesystem.js" />
     </list>
     <ignored path="Javascript练习题.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +28,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="filesystem.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filesystem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node-test/filesystem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45378152">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filesystem2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-test/filesystem2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filesystemcore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-test/filesystemcore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTTP.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node-test/HTTP.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48949578">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/node-test/file.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -109,8 +144,11 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/node-test/filesystem.es6" />
         <option value="$PROJECT_DIR$/ES6/.babelrc" />
-        <option value="$PROJECT_DIR$/node-test/file.txt" />
         <option value="$PROJECT_DIR$/node-test/filesystem.js" />
+        <option value="$PROJECT_DIR$/node-test/file.txt" />
+        <option value="$PROJECT_DIR$/node-test/filesystem2.js" />
+        <option value="$PROJECT_DIR$/node-test/filesystemcore.js" />
+        <option value="$PROJECT_DIR$/node-test/HTTP.js" />
       </list>
     </option>
   </component>
@@ -219,20 +257,20 @@
       <recent name="$PROJECT_DIR$/node-test" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.filesystem.js (1)">
-    <configuration default="false" name="filesystem.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/node-test/filesystem.es6" working-dir="$PROJECT_DIR$/node-test">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.HTTP.js">
     <configuration default="false" name="filesystem.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="filesystem.js" working-dir="$PROJECT_DIR$/node-test">
       <method />
     </configuration>
-    <configuration default="false" name="program4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="program4.js" working-dir="$PROJECT_DIR$/lib">
-      <method />
-    </configuration>
-    <configuration default="false" name="program5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="program5.js" working-dir="$PROJECT_DIR$/lib">
-      <method />
-    </configuration>
     <configuration default="false" name="program6.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="program6.js" working-dir="$PROJECT_DIR$/lib">
+      <method />
+    </configuration>
+    <configuration default="false" name="filesystem2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="filesystem2.js" working-dir="$PROJECT_DIR$/node-test">
+      <method />
+    </configuration>
+    <configuration default="false" name="filesystemcore.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="filesystemcore.js" working-dir="$PROJECT_DIR$/node-test">
+      <method />
+    </configuration>
+    <configuration default="false" name="HTTP.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="HTTP.js" working-dir="$PROJECT_DIR$/node-test">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -285,19 +323,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.filesystem.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.filesystem.js (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.program4.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.program5.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.program6.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.filesystem.js (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.program6.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.filesystem2.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.filesystemcore.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.HTTP.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.filesystem.js (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.program6.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.program5.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.program4.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.filesystem.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.HTTP.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.filesystemcore.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.filesystem2.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.filesystem.js (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.program6.js" />
       </list>
     </recent_temporary>
   </component>
@@ -406,20 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0-1/js/js0_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0-1/js0_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0-1/js/js0_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -799,19 +823,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-test/file.txt">
+    <entry file="file://$PROJECT_DIR$/node-test/filesystem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-test/filesystem.js">
+    <entry file="file://$PROJECT_DIR$/node-test/file.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45378152">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-test/filesystem2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-test/filesystemcore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-test/HTTP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48949578">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
