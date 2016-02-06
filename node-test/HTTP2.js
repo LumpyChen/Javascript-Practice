@@ -14,13 +14,13 @@ server.on('request', function (req,res) {
             res.end('<h1>首页</h1>')
             break;
         case '/user':
-            res.writeHead('200',{
+            res.writeHead(200,{
                 'content-type':'text/html;charset=utf-8'
             })
             res.end('<h1>用户首页</h1>')
             break;
         case '/news':
-            res.writeHead('200',{
+            res.writeHead(200,{
                 'content-type':'text/html;charset=utf-8'
             })
             res.end('<h1>新闻首页</h1>')
